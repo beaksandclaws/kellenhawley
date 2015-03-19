@@ -53,13 +53,6 @@ module.exports = function(grunt) {
         src: '**',
         dest: 'dist/fonts'
       },
-
-      resume: {
-        expand: true,
-        cwd: 'src/resume',
-        src: '**',
-        dest: 'dist/resume'
-      }
     },
 
     autoprefixer: {

@@ -31,11 +31,11 @@
   @extend %content-intro;
   width: 100%;
   margin-bottom: 30px;
+  text-align: center;
 
   @include bp(mama-bear) {
     padding-bottom: 0;
     margin-bottom: 20px;
-    text-align: center;
   }
 }
 
@@ -82,6 +82,10 @@
   text-align: left;
 
   @include bp(mama-bear) {
+    width: 100%;
+  }
+
+  @include bp(baby-bear) {
     width: 100%;
   }
 
