@@ -35,11 +35,7 @@ a {
 }
 
 em {
-  color: $c-cream;
-
-  @include bp(papa-bear) {
-    color: $c-dark_cream;
-  }
+  color: $c-dark_cream;
 }
 
 h3 {
