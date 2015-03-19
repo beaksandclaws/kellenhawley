@@ -1,7 +1,7 @@
 {
-  "name": "alexmiley",
+  "name": "kellenhawley",
   "version": "0.1.0",
-  "description": "A web developer in the Portland area here for the end user",
+  "description": "A web application developer in PDX",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-connect": "*",
