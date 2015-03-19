@@ -51,8 +51,12 @@
   padding: 0 10px;
   margin-bottom: 60px;
 
-  &:first-child {
-    padding-left: 0;
+  h3 {
+    text-align: center;
+  }
+
+  ul {
+    text-align: center;
   }
 
   @include bp(mama-bear) {
@@ -75,7 +79,6 @@
   display: inline-block;
   vertical-align: top;
   width: calc(100% - 80px);
-  padding-left: 40px;
   text-align: left;
 
   @include bp(mama-bear) {
@@ -88,99 +91,6 @@
   }
 }
 
-%skills-icon {
-  display: inline-block;
-  vertical-align: top;
-  height: 80px;
-  width: 80px;
-  padding-top: 15px;
-  margin-bottom: 20px;
-  background: $c-aqua;
-  border-radius: 50%;
-  color: $c-off_white;
-  text-align: center;
-  font-size: 40px;
-
-  @include bp(mama-bear) {
-    height: 128px;
-    width: 128px;
-    padding-top: 17px;
-    margin-bottom: 40px;
-    font-size: 70px;
-  }
-}
-
-.skills-tool-icon--education {
-  @extend %skills-icon;
-
-  &:before {
-    @include icon-stuff();
-    @extend .icon-pen:before;
-  }
-}
-
-.skills-tool-icon--experience {
-  @extend %skills-icon;
-  padding: 11px 20px 0px 10px;
-
-  &:before {
-    @include icon-stuff();
-    @extend .icon-paperplane:before;
-  }
-}
-
-.skills-tool-icon--passion {
-  @extend %skills-icon;
-
-  &:before {
-    @include icon-stuff();
-    @extend .icon-heart:before;
-  }
-}
-
-// Look at me github section
-.look_at_me-outer {
-  @extend %content-area;
-  background: $c-dark_green;
-  color: $c-off_white;
-
-  a {
-    color: $c-off_white;
-
-    &:hover {
-      color: $c-cream;
-    }
-  }
-
-  .icon-github {
-    font-size: 70px;
-    text-decoration: none;
-  }
-}
-
-.look_at_me {
-  @extend %container;
-}
-
-.look_at_me-intro {
-  @extend %content-intro;
-  width: 100px;
-  padding-top: 20px;
-
-  @include bp(mama-bear) {
-    padding-top: 60px;
-  }
-}
-
-.look_at_me-description {
-  @extend %content-description;
-  width: calc(100% - 100px);
-  max-width: 760px;
-
-  a {
-    text-decoration: underline;
-  }
-}
 
 // About
 .work-outer {
