@@ -1,5 +1,5 @@
 .main_footer {
-  background: $c-dark_green;
+  background: $c-dark_gray;
   font-family: $f-sans;
   text-align: center;
 }
@@ -30,11 +30,11 @@
   }
 
   a {
-    color: $c-off_white;
+    color: $c-main_pastel_green;
     word-break: break-all;
 
     &:hover {
-      color: $c-cream;
+      color: $c-darker_pastel_green;
     }
   }
 }

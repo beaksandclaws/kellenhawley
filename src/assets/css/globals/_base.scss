@@ -6,19 +6,19 @@
 body {
   font-size: 15px;
   line-height: 1.2;
-  color: $c-dark_green;
+  color: $c-dark_gray;
   height: 100%;
   width: 100%;
-  background: url(/images/forest_sml.jpg) no-repeat center center;
+  background: url(/images/laptop1.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 
   @include bp(mama-bear) {
-    background-image: url(/images/forest_med.jpg);
+    background-image: url(/images/laptop1.jpg);
   }
 
   @include bp(papa-bear) {
-    background-image: url(/images/forest_lrg.jpg);
+    background-image: url(/images/laptop1.jpg);
   }
 }
 
@@ -35,7 +35,7 @@ a {
 }
 
 em {
-  color: $c-dark_cream;
+  color: $c-main_pastel_green;
 }
 
 h3 {

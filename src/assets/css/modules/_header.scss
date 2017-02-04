@@ -2,8 +2,8 @@
   width: 100%;
   font-family: $f-sans;
   text-align: center;
-  background: $c-dark_green;
-  color: $c-off_white;
+  background: $c-dark_gray;
+  color: $c-main_pastel_green;
 
   @include bp(mama-bear) {
     position: fixed;
@@ -23,7 +23,7 @@
 }
 
 .main_nav-link {
-  $current_color: $c-off_white;
+  $current_color: $c-main_pastel_green;
 
   display: inline-block;
   vertical-align: top;
@@ -33,7 +33,7 @@
   color: $current_color;
 
   &:hover {
-    color: darken($current_color, 20%);
+    color: $c-darker_pastel_green;
   }
 }
 
@@ -62,7 +62,7 @@
 }
 
 .monogram-letter {
-  $current_color: $c-off_white;
+  $current_color: $c-main_pastel_green;
 
   display: inline-block;
   vertical-align: top;

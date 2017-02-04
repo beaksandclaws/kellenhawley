@@ -31,14 +31,6 @@ module.exports = function(grunt) {
       }
     },
 
-    uglify: {
-      all: {
-        files: {
-          'dist/js/main.js': 'src/assets/js/**/*.js'
-        }
-      }
-    },
-
     copy: {
       images: {
         expand: true,
@@ -53,6 +45,20 @@ module.exports = function(grunt) {
         src: '**',
         dest: 'dist/fonts'
       },
+
+      files: {
+        expand: true,
+        cwd: 'src/assets/files',
+        src: '**',
+        dest: 'dist/files'
+      },
+
+      javascripts: {
+        expand: true,
+        cwd: 'src/assets/js',
+        src: '**',
+        dest: 'dist/js'
+      }
     },
 
     autoprefixer: {

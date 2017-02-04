@@ -1,7 +1,7 @@
 {
-  "name": "kellenhawley",
+  "name": "ktjmccarthy",
   "version": "0.1.0",
-  "description": "A web application developer in PDX",
+  "description": "A writer in PDX",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-connect": "*",
